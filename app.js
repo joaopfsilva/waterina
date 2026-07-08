@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 routes(app);
 
-app.listen(3000, () => {
-  console.log('running');
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`http://localhost:${PORT}`);
 });
