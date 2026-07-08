@@ -1,12 +1,20 @@
 # waterina
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Status: unmaintained](https://img.shields.io/badge/status-unmaintained-lightgrey.svg)](#status)
 
 Water your plants remotely from a Raspberry Pi. A small Node/Express HTTP API
 receives a request, spawns a Python script that toggles a GPIO pin for a fixed
 duration, and a relay-driven pump pushes water for that long.
 
 Runs on the Pi itself — hit it from your phone, a scheduled cron, or a smart-home hub.
+
+## Status
+
+**This project is no longer maintained.** It's kept online as a small hardware
+side-project archive. Issues and PRs are not being triaged, and no
+responsibility is taken for bugs, hardware damage, or plant fatalities.
+Fork it and adapt it if you find it useful.
 
 ## Stack
 

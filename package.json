@@ -1,17 +1,21 @@
 {
   "name": "waterina",
   "version": "1.0.0",
-  "description": "",
+  "description": "Remotely water plants from a Raspberry Pi via an authenticated Express API.",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=18"
   },
-  "author": "joaopfsilva",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "João Silva <j0a0.silva.kle@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopfsilva/waterina.git"
+  },
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "child_process": "^1.0.2",
-    "express": "^4.18.2"
+    "express": "^4.21.2"
   }
 }
